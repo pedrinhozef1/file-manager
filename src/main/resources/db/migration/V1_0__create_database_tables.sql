@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS file.file(
+    id SERIAL NOT NULL,
+    file_name VARCHAR(120) NOT NULL,
+    file_type VARCHAR(120) NOT NULL
+);
